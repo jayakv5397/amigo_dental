@@ -212,12 +212,29 @@ footer{
     
     }
 
+    .fixButton{
+    
+            display: block;
+            width: 80%;
+            height: 2.5rem;
+            margin: auto;
+    }
+
+    .Search{
+        width: 80%;
+    }
+
     
     footer{
 
         background-color: hsl(243, 87%, 12%);
         padding: 10% 7%;
         color: white !important;
+    }
+
+    .logoBottom{
+        width: 6rem;
+        margin-bottom: 1rem;
     }
 
 
