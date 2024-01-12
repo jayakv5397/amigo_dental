@@ -32,7 +32,7 @@
   
 
 <nav class="navbar navbar-expand-sm bg-light" style="padding: 1% 7%;">
-  <a class="navbar-brand" href="./index.html"><img src="./images/AMIGO_LOGO_HORIZONTAL.svg" style="padding: 1%;" width="140rem" alt="" class="logo"></a>
+  <a class="navbar-brand" href="./index.html"><img src="./images/AMIGO_LOGO_HORIZONTAL.svg" style="padding: 3%;" width="140rem" alt="" class="logo"></a>
   <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -62,12 +62,21 @@
     <div id="mc_embed_signup">
         <form action="https://gmail.us21.list-manage.com/subscribe/post?u=8bef7c3b59064e282f5a0a650&amp;id=6652467aee&amp;f_id=0041ede6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
             <div id="mc_embed_signup_scroll">
-                <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" id="myInput" required="" value=""></div>
+                <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
                 <div class="mc-field-group"><label for="mce-LNAME">Name <span class="asterisk">*</span></label><input type="text" name="LNAME" class="required text" id="mce-LNAME" value="" required=""></div>
-                <div class="mc-field-group"><label for="mce-PHONE">Phone Number <span class="asterisk">*</span></label><input type="text" name="PHONE" class="REQ_CSS" id="mce-PHONE" value="">
-                <div class="mc-field-group size1of2 mt-3"><label for="mce-BIRTHDAY-month">Date of Visit </label>
-                    <div class="datefield"><span class="subfield monthfield"><input class="birthday REQ_CSS" type="text" pattern="[0-9]*" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month" value=""></span> /<span class="subfield dayfield"><input class="birthday REQ_CSS" type="text" pattern="[0-9]*" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day" value=""></span><span class="small-meta nowrap">( mm / dd )</span></div>
-                  </div>
+                <div class="mc-field-group"><label for="mce-PHONE">Phone Number <span class="asterisk">*</span></label><input type="text" name="PHONE" class="REQ_CSS" id="mce-PHONE" required="" value=""></div>
+                <div class="mc-field-group size2of2"><label for="mce-FNAME">Branch<span class="asterisk">*</span> </label>
+                  <!-- <input type="text" name="FNAME" class=" text" id="mce-FNAME" value=""> -->
+                  <select class="form-select ps-2" type="text" name="FNAME"  id="mce-FNAME" required="">
+                    <option selected>Select branch here</option>
+                    <option value="Dhone">Dhone</option>
+                    <option value="Tirupati">Tirupati</option>
+                  </select>
+                </div>
+                <div class="mc-field-group size1of2"><label for="mce-BIRTHDAY-month">Date of Visit </label>
+                  <div class="datefield"><span class="subfield monthfield"><input class="birthday REQ_CSS" type="text" pattern="[0-9]*" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month" value=""></span> /<span class="subfield dayfield"><input class="birthday REQ_CSS" type="text" pattern="[0-9]*" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day" value=""></span><span class="small-meta nowrap">( mm / dd )</span></div>
+                </div>
+
                   <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                 </div>
             <div id="mce-responses" class="clear foot">
@@ -87,9 +96,8 @@
         </div>
     </form>
     </div>
-    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[1]='FNAME';ftypes[1]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
-    
-      </div>
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[1]='FNAME';ftypes[1]='text';fnames[3]='ADDRESS';ftypes[3]='address';}(jQuery));var $mcj = jQuery.noConflict(true);</script>    
+    </div>
 
     </div>
   </div>
@@ -183,7 +191,7 @@
     <div class="container-fluid foot">
       <div class="row">
         <div class="col-lg-3 col-md-6">
-          <img width="200" class="logoBottom" style="padding: 1%;" src="./images/AMIGO_LOGO_HORIZONTAL_WHITE.svg" alt="">
+          <img width="200" class="logoBottom" style="padding: 3%;" src="./images/AMIGO_LOGO_HORIZONTAL_WHITE.svg" alt="">
         </div>
         <div class="col-lg-3 col-md-6">
           <p style="color:white;">Phone: +91-543-123-4567</p>
