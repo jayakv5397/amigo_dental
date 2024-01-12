@@ -13,10 +13,18 @@
   <!-- fonts  -->
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    .cardImage{
+      height: 120px; 
+      object-fit: cover; 
+      opacity: 0.4;
+    }
   </style>
 </head>
 <body>
@@ -31,7 +39,7 @@
   <div class="collapse navbar-collapse" id="n_bar">
     <ul class="navbar-nav ms-auto">
       <li class="nav-item m-2">     </li>
-      <li class="nav-item m-2"><a href="#productive" style="text-decoration: none; color: black;">What we offer</a></li>
+      <li class="nav-item m-2"><a href="./index.html#productive" style="text-decoration: none; color: black;">What we offer</a></li>
       <li class="nav-item m-2"><a href="#footer" style="text-decoration: none; color: black;">Contact us</a></li>
     </ul>
   </div>
@@ -89,50 +97,72 @@
 </section>
 
 
-<section class="title">
-  <div class="row">
-    <div class="col-md-6 title-content">
-      <h1>Your Journey to a Brighter Smile Starts Here.</h1>
-      <p>Precision dentistry, compassionate care. Your confident smile begins with us. Experience personalized treatments, advanced technology, and a commitment to your dental well-being. Welcome to a brighter, healthier you!</p>
-      <div class="container-fluid p-0">
-        <!-- Button trigger modal -->
-      <button type="button" class="ms-2 btn btn-primary mb-1 get" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="copyEmail()">Book an Appointment</button>
+<section class="services p-2 mb-3">
+
+
+  <div class="grey-bg container-fluid">
+    <section id="minimal-statistics">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h4 class="m-3">Treatments we do</h4>
+        </div>
       </div>
-    </div>
 
-
-    <div class="col-md-6">
-      <img src="./images/dental.svg" alt="illustration" class="title-img img-fluid pt-5">
-    </div>
-  </div>
-
-</section>
-
-<section class="produtive" id="productive">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-6">
-        <h1>Dentistry that Inspires Confidence.</h1>
-        <p>Crafting beautiful smiles, one appointment at a time.</p>
-        <p>Our dedicated team combines expertise with a caring touch. Trust us for precision dentistry, exceptional service, and a renewed sense of confidence.</p>
-        <a href="./services.html" class="fylo-works">See what we do <img src="./images/icon-arrow.svg" alt="arrow" width="25px"> </a>
-        <div class="quote">
-          <img src="./images/icon-quotes.svg" alt="quotes">
-          <h6>Five star recommend hospital. The treatment was good and the doctors and staff too. Best place to visit for oral health services. Thank you for the whole team of Amigo Dental clinic.</h6>
-          <div class="testimonial">
-            <img src="./images/avatar-testimonial.jpg" alt="kayle" width="50px" class="kayle">
-            <h3>Omprakash</h3>
-            <h5 calss="designation">Dhone, Anantapur</h5>
+      <div class="row">
+  
+        <div class="col-xl-3 col-sm-6 mt-3 col-12"> 
+          <div class="card bg-dark text-white">
+            <img src="./images/treatments/TeethCleaning.jpeg" class="card-img cardImage" alt="...">
+            <div class="card-img-overlay">
+              <p class="card-text text-white strong">Teeth Cleaning & Polishing Teeth Cleaning / Scaling</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 mt-3 col-12"> 
+          <div class="card bg-dark text-white">
+            <img src="./images/treatments/rootcanal.jpeg" class="card-img cardImage" alt="...">
+            <div class="card-img-overlay">
+              <p class="card-text text-white strong">Root Canal Treatment (RCT)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 mt-3 col-12"> 
+          <div class="card bg-dark text-white">
+            <img src="./images/treatments/dentalImplants.jpg" class="card-img cardImage" alt="...">
+            <div class="card-img-overlay">
+              <p class="card-text text-white strong">Dental Implant</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 mt-3 col-12"> 
+          <div class="card bg-dark text-white">
+            <img src="./images/treatments/CrownValue.png" class="card-img cardImage" alt="...">
+            <div class="card-img-overlay">
+              <p class="card-text text-white strong">Crown – Value (Full Ceramic - Zirconia)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 mt-3 col-12"> 
+          <div class="card bg-dark text-white">
+            <img src="./images/treatments/metalBraces.jpg" class="card-img cardImage" alt="...">
+            <div class="card-img-overlay">
+              <p class="card-text text-white strong">Metal Braces (Consultant) / Ceramic Braces (Consultant)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 mt-3 col-12"> 
+          <div class="card bg-dark text-white">
+            <img src="./images/treatments/SDAlign.jpg" class="card-img cardImage" alt="...">
+            <div class="card-img-overlay">
+              <p class="card-text text-white strong">SDAlign (Invisible Braces or Clear Aligners)</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-6">
-        <img src="./images/dental_car.png" alt="illustration" class="productive-img img-fluid mt-5" >
-      </div>
-    </div>
+    </section>
+    
   </div>
 </section>
-
   
 <section class="last-one">
   <div class="container-fluid">
@@ -148,7 +178,6 @@
     </div>
   </div>
 </section>
-  
 
   <footer id="footer">
     <div class="container-fluid foot">
