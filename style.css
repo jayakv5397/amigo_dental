@@ -111,13 +111,23 @@ p{
     margin-right: 10px;
 }
 
+.textButton{
+    background:none; 
+    border:none;   
+    color: #ffd625;  
+}
+
+.textButton:hover{
+    color: white;
+}
+
 
 /* last-one  */
 
 .last-one{
     /* color: white; */
     background-color: hsl(238, 22%, 44%);
-    padding: 5% 7%;
+    padding: 3% 7%;
 }
 
 
@@ -195,7 +205,7 @@ footer{
     .last-one{
         /* color: white; */
         background-color: hsl(238, 22%, 44%);
-        padding: 10% 5%;
+        padding: 10% 3%;
         text-align: center;
     }
 
